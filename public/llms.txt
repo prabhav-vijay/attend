@@ -1,0 +1,18 @@
+# Attend.™
+
+Attend.™ is a privacy-focused, local-first college attendance tracker for custom semesters, subjects, timetable sessions, holidays, exams, and events. No data is collected and nothing leaves the visitor's device; all processing happens locally in the browser.
+
+## Public pages
+- /home — Entry splash for the Attend.™ tracker
+- / — Month calendar and per-session attendance marking
+- /today — Today's sessions
+- /week — Weekly session view
+- /list — Date-range session list
+- /subjects — Subject attendance summaries
+- /events — Events and holidays
+- /reports — Attendance reports and target forecasts
+- /semester — Semester, subject, and timetable setup
+- /about — Calculation methods, data handling, and limitations
+- /terms — Terms of service, trademark and intellectual property notice
+
+Attendance records are user-entered and stored locally in the visitor's browser. Calculation rules are documented at /about.
