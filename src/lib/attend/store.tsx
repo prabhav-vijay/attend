@@ -21,7 +21,14 @@ type Ctx = {
   replace: (next: Store) => void;
 };
 
-const StoreContext = createContext<Ctx | null>(null);
+// Keep the context identity stable across hot reloads: if this module is
+// hot-updated, a freshly created context would be empty, and every mounted
+// consumer would crash with "useStore must be used inside StoreProvider".
+type StoreG = typeof globalThis & {
+  __attendStoreContext?: ReturnType<typeof createContext<Ctx | null>>;
+};
+const StoreContext = ((globalThis as StoreG).__attendStoreContext ??=
+  createContext<Ctx | null>(null));
 
 export function StoreProvider({ children }: { children: ReactNode }) {
   const [store, setStore] = useState<Store>(emptyStore);
@@ -83,3 +90,5 @@ export function useStore() {
   if (!ctx) throw new Error("useStore must be used inside StoreProvider");
   return ctx;
 }
+
+

@@ -90,7 +90,6 @@ export type Semester = {
   name: string;
   start: string;
   end: string;
-  timezone: string;
   defaultTarget: number;
   /** 0 = Sunday, 1 = Monday */
   firstDayOfWeek: 0 | 1;

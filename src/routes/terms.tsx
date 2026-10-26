@@ -128,6 +128,19 @@ function TermsPage() {
       </Section>
 
       <p className="text-[16.5px] leading-7">
+        <strong className="font-semibold text-foreground">GitHub Repo</strong>
+        <span className="text-muted-foreground">— </span>
+        <a
+          href="https://github.com/prabhav-vijay/attend"
+          target="_blank"
+          rel="noreferrer"
+          className="text-primary underline hover:no-underline"
+        >
+          github.com/prabhav-vijay/attend
+        </a>
+      </p>
+
+      <p className="text-[16.5px] leading-7">
         <Link to="/about" className="text-primary underline">Back to About</Link>
         <span className="text-muted-foreground"> or </span>
         <Link to="/" className="text-primary underline">open the calendar</Link>.

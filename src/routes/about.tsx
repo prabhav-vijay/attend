@@ -95,6 +95,19 @@ function AboutPage() {
       </section>
 
       <p className="text-[16.5px] leading-7">
+        <strong className="font-semibold text-foreground">GitHub Repo</strong>
+        <span className="text-muted-foreground">— </span>
+        <a
+          href="https://github.com/prabhav-vijay/attend"
+          target="_blank"
+          rel="noreferrer"
+          className="text-primary underline hover:no-underline"
+        >
+          github.com/prabhav-vijay/attend
+        </a>
+      </p>
+
+      <p className="text-[16.5px] leading-7">
         <Link to="/semester" className="text-primary underline">Configure a semester</Link>
         <span className="text-muted-foreground">, </span>
         <Link to="/reports" className="text-primary underline">review attendance reports</Link>

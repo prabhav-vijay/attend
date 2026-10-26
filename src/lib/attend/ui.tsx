@@ -35,7 +35,12 @@ type Ctx = {
   setNavOpen: (v: boolean) => void;
 };
 
-const UiContext = createContext<Ctx | null>(null);
+// Same rationale as store.tsx: keep context identity stable across hot reloads.
+type UiG = typeof globalThis & {
+  __attendUiContext?: ReturnType<typeof createContext<Ctx | null>>;
+};
+const UiContext = ((globalThis as UiG).__attendUiContext ??=
+  createContext<Ctx | null>(null));
 
 export function UiProvider({ children }: { children: ReactNode }) {
   const [subjectIds, setSubjectIds] = useState<string[]>([]);

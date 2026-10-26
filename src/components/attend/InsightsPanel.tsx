@@ -235,10 +235,6 @@ export function InsightsPanel() {
               <dt>Risk margin</dt>
               <dd>{margin} points</dd>
             </div>
-            <div className="flex justify-between">
-              <dt>Time zone</dt>
-              <dd>{semester.timezone}</dd>
-            </div>
           </dl>
         )}
       </section>

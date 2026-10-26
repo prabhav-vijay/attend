@@ -56,7 +56,6 @@ export function migrateLegacy(raw: string): Store | null {
       name: s.name,
       start: s.start,
       end: s.end,
-      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC",
       defaultTarget: s.target ?? 75,
       firstDayOfWeek: 1,
       workingDays: [1, 2, 3, 4, 5],

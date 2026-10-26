@@ -151,7 +151,6 @@ export function storeFromCsv(text: string, current: Store): CsvResult {
           name: semName,
           start: date,
           end: date,
-          timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC",
           defaultTarget: 75,
           firstDayOfWeek: 1,
           workingDays: [1, 2, 3, 4, 5],

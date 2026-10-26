@@ -37,7 +37,6 @@ export function newSemester(): Semester {
     name: "",
     start: iso(today),
     end: iso(end),
-    timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC",
     defaultTarget: 75,
     firstDayOfWeek: 1,
     workingDays: [1, 2, 3, 4, 5],
@@ -146,30 +145,20 @@ export function SemesterDialog({
             </Select>
           </div>
 
-          <div className="grid grid-cols-2 gap-3">
-            <div className="grid gap-2">
-              <Label>First day of week</Label>
-              <Select
-                value={String(draft.firstDayOfWeek)}
-                onValueChange={(v) => set("firstDayOfWeek", Number(v) as 0 | 1)}
-              >
-                <SelectTrigger>
-                  <SelectValue />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="1">Monday</SelectItem>
-                  <SelectItem value="0">Sunday</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-            <div className="grid gap-2">
-              <Label htmlFor="sem-tz">Time zone</Label>
-              <Input
-                id="sem-tz"
-                value={draft.timezone}
-                onChange={(e) => set("timezone", e.target.value)}
-              />
-            </div>
+          <div className="grid gap-2">
+            <Label>First day of week</Label>
+            <Select
+              value={String(draft.firstDayOfWeek)}
+              onValueChange={(v) => set("firstDayOfWeek", Number(v) as 0 | 1)}
+            >
+              <SelectTrigger>
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="1">Monday</SelectItem>
+                <SelectItem value="0">Sunday</SelectItem>
+              </SelectContent>
+            </Select>
           </div>
 
           <div className="grid gap-2">
