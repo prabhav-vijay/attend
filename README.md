@@ -4,8 +4,11 @@
 **A local-first attendance planner for college students.** Track classes across a semester, understand your attendance percentage, and forecast how many sessions you can miss—or need to attend—to reach your target, without creating an account.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Attend-2563eb?style=for-the-badge)](https://attend-pv.vercel.app/)
+
 [![React](https://img.shields.io/badge/React-19-149eca?logo=react&logoColor=white)](https://react.dev/)
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
 [![Vite](https://img.shields.io/badge/Vite-8-646cff?logo=vite&logoColor=white)](https://vite.dev/)
 
 > **Important:** Attend.™ is a personal planning aid, not your college's official attendance register. Confirm important academic decisions with your institution's records.
