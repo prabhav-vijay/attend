@@ -25,12 +25,16 @@ The project is built around three ideas:
 
 ## Features
 
+![Attend.™ UI](docs/screenshots/main-ui.png)
+
 ### Attendance and calendar
 
 - Mark sessions as **present, absent, excused, or cancelled**.
 - View records in calendar, today, week, and list views.
 - Filter records by subject and status, including holidays, important events, and notes.
 - Add notes and flag important dates for quick reference.
+
+-![Attend.™ calendar](docs/screenshots/calendar.png)
 
 ### Semester and timetable planning
 
@@ -39,12 +43,16 @@ The project is built around three ideas:
 - Record holidays and upcoming events alongside attendance.
 - Review sessions over a selected date range.
 
+-![Attend.™ semester setup](docs/screenshots/semester-setup.png)
+
 ### Reports and forecasts
 
 - View overall attendance and counted-session totals.
 - Estimate how many consecutive sessions can be missed while staying at or above the configured target.
 - When below target, estimate how many consecutive sessions need to be attended to recover to the target.
 - Print reports or export report data as CSV or JSON.
+
+-![Attend.™ report](docs/screenshots/reports.png)
 
 ### Data portability
 
