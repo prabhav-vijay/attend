@@ -3,7 +3,7 @@
 
 **A local-first attendance planner for college students.** Track classes across a semester, understand your attendance percentage, and forecast how many sessions you can miss or need to attend to reach your target, all without ever creating an account.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Attend-2563eb?style=for-the-badge)](https://attend-pv.vercel.app/)
+[![Attend.](https://img.shields.io/badge/Attend.™-2563eb?style=for-the-badge)](https://attend-pv.vercel.app/)
 
 [![React](https://img.shields.io/badge/React-19-149eca?logo=react&logoColor=white)](https://react.dev/)
 
