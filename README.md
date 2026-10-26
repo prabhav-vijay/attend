@@ -34,7 +34,7 @@ The project is built around three ideas:
 - Filter records by subject and status, including holidays, important events, and notes.
 - Add notes and flag important dates for quick reference.
 
--![Attend.™ calendar](docs/screenshots/calendar.png)
+![Attend.™ calendar](docs/screenshots/calendar.png)
 
 ### Semester and timetable planning
 
@@ -43,7 +43,7 @@ The project is built around three ideas:
 - Record holidays and upcoming events alongside attendance.
 - Review sessions over a selected date range.
 
--![Attend.™ semester setup](docs/screenshots/semester-setup.png)
+![Attend.™ semester setup](docs/screenshots/semester-setup.png)
 
 ### Reports and forecasts
 
@@ -52,7 +52,7 @@ The project is built around three ideas:
 - When below target, estimate how many consecutive sessions need to be attended to recover to the target.
 - Print reports or export report data as CSV or JSON.
 
--![Attend.™ report](docs/screenshots/reports.png)
+![Attend.™ report](docs/screenshots/reports.png)
 
 ### Data portability
 
