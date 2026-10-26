@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions, ideas, and general discussion
+    url: https://github.com/prabhav-vijay/attend/discussions
+    about: Use Discussions for questions, brainstorming, and general feedback rather than bug reports.
+  - name: Private or sensitive concern
+    url: mailto:contact.attend.dev@gmail.com
+    about: Contact the developer privately. Do not post personal attendance data in public issues.

@@ -1,0 +1,32 @@
+title: "[General] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for general conversation about Attend, how you use it, or topics that do not fit a more specific category.
+
+        Please do not post personal attendance records, student IDs, credentials, or real backup/export files.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area is this about?
+      options:
+        - Using Attend
+        - Attendance calculations / forecasts
+        - Semester setup / timetable
+        - Reports / import / export
+        - Privacy / data storage
+        - General feedback
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: discussion
+    attributes:
+      label: What would you like to discuss?
+      description: Share the question, experience, or idea you would like to talk about.
+      placeholder: I wanted to discuss ...
+    validations:
+      required: true

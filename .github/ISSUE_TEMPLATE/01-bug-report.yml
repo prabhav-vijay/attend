@@ -1,0 +1,110 @@
+name: Bug report
+description: Report something that is not working as expected in Attend.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Attend.
+
+        **Privacy note:** Issues are public. Do not include real attendance exports, student IDs, passwords, or other personal information. Use fabricated examples and redact screenshots.
+
+  - type: checkboxes
+    id: existing-issue
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for a similar report.
+          required: true
+
+  - type: dropdown
+    id: app-area
+    attributes:
+      label: Which part of Attend is affected?
+      options:
+        - Attendance calendar / marking attendance
+        - Semester setup / academic dates
+        - Subjects / timetable
+        - Holidays / events
+        - Attendance percentage / forecasts
+        - Reports / export
+        - Import / restore data
+        - Browser storage / data persistence
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where did this happen?
+      options:
+        - Live website (https://attend-pv.vercel.app/)
+        - Local development version
+        - Both
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: Page or screen
+      description: Which page, dialog, or part of the interface were you using?
+      placeholder: e.g. Attendance calendar, Import data dialog
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: What happened?
+      description: Describe the unexpected behaviour. Include any error message, if shown.
+      placeholder: What did you see?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: What did you expect to happen?
+      placeholder: Describe the expected result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to reproduce
+      description: Give a numbered sequence so the developer can try to reproduce the problem. Use a test semester or fabricated data.
+      placeholder: |
+        1. Open ...
+        2. Select ...
+        3. Enter test data ...
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Firefox
+        - Microsoft Edge
+        - Safari
+        - Other
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots-and-details
+    attributes:
+      label: Screenshots or additional context
+      description: Optional. Redact personal information before attaching screenshots. Do not attach real attendance backups or exports.
+      placeholder: Add any relevant details here.
+    validations:
+      required: false

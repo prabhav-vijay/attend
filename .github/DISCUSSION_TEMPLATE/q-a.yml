@@ -1,0 +1,35 @@
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a question about using Attend or understanding its behaviour. For a reproducible bug, use the Bug report issue template instead.
+
+        Do not share private attendance data, credentials, or real backup/export files.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like to know?
+      placeholder: How do I ...?
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried so far?
+      description: Optional, but it can help others answer your question.
+      placeholder: I tried ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Optional. Describe the relevant page or workflow. Use fabricated examples.
+      placeholder: I was using ...
+    validations:
+      required: false

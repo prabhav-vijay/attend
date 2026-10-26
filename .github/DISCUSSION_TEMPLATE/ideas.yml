@@ -1,0 +1,35 @@
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share early-stage ideas for Attend here. Ideas are for discussion and feedback; use the Feature request issue template when you have a specific, actionable change to propose.
+
+        Do not include personal attendance information.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Describe your idea
+      description: What would you like Attend to support, or what could work differently?
+      placeholder: It might be useful if ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why would this be useful?
+      description: What student problem or workflow would this improve?
+      placeholder: This would help students by ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Questions or alternatives
+      description: Optional. Share trade-offs, alternatives, or questions for the community.
+    validations:
+      required: false
