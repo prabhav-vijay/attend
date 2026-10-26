@@ -168,6 +168,8 @@ These are potential improvements, not promises or claims that the work is alread
 
 Bug reports and feature suggestions can be submitted through [GitHub Issues](https://github.com/prabhav-vijay/attend/issues), where available. Helpful reports include the page, steps to reproduce, expected behaviour, and actual behaviour.
 
+Alternatively, you can contact the developer directly at contact.attend.dev@gmail.com.
+
 **Do not attach attendance exports, personal information, screenshots containing student details, or other private records to a public issue.** Use a fabricated example instead.
 
 ## Terms, ownership, and reuse
