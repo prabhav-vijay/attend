@@ -145,8 +145,6 @@ A practical change cycle for this project is:
 5. **Manually verify the affected views** and confirm that data can still be exported and restored.
 6. **Update the documentation** when a user-facing feature or calculation rule changes.
 
-Do not use real student records or personal attendance exports when creating screenshots, sample data, bug reports, or test fixtures.
-
 ## Technology stack
 
 - **React 19** and **TypeScript** for the interface and application logic
@@ -156,16 +154,6 @@ Do not use real student records or personal attendance exports when creating scr
 - **Radix UI** primitives and related UI utilities for interface components
 - **date-fns** for date-related utilities
 - **Bun** for dependency installation and project scripts
-
-## Roadmap ideas
-
-These are potential improvements, not promises or claims that the work is already underway:
-
-- Add automated tests for attendance percentages, target forecasts, and date-boundary cases.
-- Add schema validation and clearer recovery messages for imported backups.
-- Improve backup/versioning guidance so users can recognise stale or incompatible exports.
-- Expand accessibility and small-screen testing across calendar, setup, and report views.
-- Add a concise changelog and document any changes to attendance rules.
 
 ## Feedback and issue reports
 
