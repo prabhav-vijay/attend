@@ -83,11 +83,12 @@ Attend.™ is designed to keep attendance records local to the browser:
 
 - No account or sign-in is required.
 - Attendance entries and calculations are stored and processed in the browser rather than in an Attend.™ account.
-- The project states that attendance data is not collected or transmitted to its servers.
+- Attendance data is not collected or transmitted to its servers.
 
 **Local storage also means you are responsible for backups.** Your records may be lost if you clear site data, use private browsing, switch browsers or devices, or lose access to the device. Export a JSON backup regularly and keep it somewhere safe. Do not rely on the website as the only copy of your records.
 
-The interface loads web fonts from a third-party font service; refer to the website's Terms of Service for the details. No attendance records should be included in public bug reports or screenshots.
+The interface loads web fonts from a third-party font service; refer to the website's Terms of Service for the details. 
+No attendance records should be included in public bug reports or screenshots.
 
 ## Try it online
 
@@ -155,12 +156,6 @@ Do not use real student records or personal attendance exports when creating scr
 - **Radix UI** primitives and related UI utilities for interface components
 - **date-fns** for date-related utilities
 - **Bun** for dependency installation and project scripts
-
-## AI-assisted development
-
-AI-assisted tooling, including the Lovable development toolchain present in this repository, may be used to accelerate scaffolding, implementation, debugging, and iteration. Generated suggestions are not automatically assumed to be correct: changes should be reviewed, tested, and understood before being kept.
-
-**Maintainer note:** Edit this section before publishing if it does not accurately describe how AI tools were used on this project. Name only tools and uses that reflect your actual workflow.
 
 ## Roadmap ideas
 
